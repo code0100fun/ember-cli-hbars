@@ -1,0 +1,27 @@
+{
+  "name": "ember-cli-hbars",
+  "version": "0.0.1",
+  "description": "Haml to Handlebars/HTMLBars template engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "ember-addon": {
+    "main": "ember-addon-main.js",
+    "before": [
+      "ember-cli-htmlbars"
+    ]
+  },
+  "keywords": [
+    "ember-addon",
+    "haml",
+    "hbars",
+    "handlebars",
+    "htmlbars"
+  ],
+  "author": "Chase McCarthy",
+  "license": "ISC",
+  "devDependencies": {
+    "broccoli-filter": "^0.1.10"
+  }
+}
