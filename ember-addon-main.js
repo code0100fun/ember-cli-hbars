@@ -8,7 +8,7 @@ module.exports = {
     var self = this;
     this._super.included.apply(this, arguments);
     app.registry.add('template', {
-      name: 'ember-cli-htmlbars',
+      name: 'ember-cli-hbars',
       ext: ['haml', 'hbars'],
       toTree: function(tree) {
         return hbarsCompile(tree);
