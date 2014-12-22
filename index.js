@@ -1,5 +1,5 @@
 var Filter = require('broccoli-filter');
-var compile = require('./node_modules/hbars/dist/tests/compiler')['default'].compile;
+var compile = require('hbars/compiler')['default'].compile;
 
 function TemplateCompiler (inputTree, options) {
   if (!(this instanceof TemplateCompiler)) {
