@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-hbars",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Haml to Handlebars/HTMLBars template engine",
   "main": "index.js",
   "scripts": {
@@ -23,6 +23,6 @@
   "license": "ISC",
   "dependencies": {
     "broccoli-filter": "^0.1.10",
-    "hbars": "^0.0.12"
+    "hbars": "^0.0.13"
   }
 }
